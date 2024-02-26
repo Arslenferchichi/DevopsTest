@@ -25,4 +25,6 @@ public class Bloc {
     Foyer f;
     @OneToMany(mappedBy = "b" , fetch = FetchType.EAGER , cascade = CascadeType.ALL)
     Set<Chambre> ch;
+    //4TWIN3
+    //DeuxiemeModif
 }
